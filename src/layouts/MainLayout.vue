@@ -15,7 +15,7 @@
           Ejemplo
         </q-toolbar-title>
 
-        <div></div>
+        <div>Quasar</div>
       </q-toolbar>
     </q-header>
 
@@ -30,7 +30,7 @@
           header
           class="text-grey-8"
         >
-          Menu de navegación
+          Essential Links
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
@@ -56,7 +56,7 @@ const linksData = [
     icon: 'school',
     link: 'https://quasar.dev'
   },
-  {
+  /*{
     title: 'Github',
     caption: 'github.com/quasarframework',
     icon: 'code',
@@ -91,7 +91,7 @@ const linksData = [
     caption: 'Community Quasar projects',
     icon: 'favorite',
     link: 'https://awesome.quasar.dev'
-  }
+  }*/
 ];
 
 export default {
